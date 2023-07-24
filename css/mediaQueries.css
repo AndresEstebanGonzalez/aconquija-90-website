@@ -1,0 +1,140 @@
+/* MEDIAQUERY */
+
+/* GENERAL HEADER & NAVBAR */
+
+@media only screen and (max-width: 1279px) {
+  .title--index--container {
+    display: flex;
+    flex-direction: column;
+  }
+  .right--navbar--container li {
+    margin-right: 2rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .left--navbar--container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+  }
+  .menu--btn {
+    display: flex;
+    width: 1.8rem;
+    margin-right: 1.5rem;
+  }
+  .right--navbar--container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header-div {
+    justify-content: center;
+  }
+  .left--container {
+    margin: 0;
+  }
+  .right--container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .right--container {
+    display: none;
+  }
+}
+
+/* INDEX */
+@media only screen and (max-width: 1279px) {
+  .main--title--index {
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .name--logo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+  }
+  .title--index--container {
+    flex-direction: column;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main--title--index {
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 3.6rem;
+  }
+  .title--index--container {
+    padding: 0 1.5rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .right--container {
+    display: none;
+  }
+  .name--logo {
+    justify-content: flex-start;
+  }
+  .name--logo a {
+    display: none;
+  }
+  .name--logo img {
+    height: 3.8rem;
+  }
+  .main--title--index {
+    font-size: 3rem;
+  }
+}
+
+/* CONTACTO */
+
+@media only screen and (max-width: 960px) {
+  .main--contacto {
+    flex-direction: column;
+  }
+  .contacto--center--div {
+    display: flex;
+    flex-direction: row;
+  }
+  .pedido-oracion {
+    display: none;
+  }
+  .datos-container{
+    height: 15rem;
+  }
+  .datos-contacto {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .domicilio--contacto{
+    margin: 0rem;
+  }
+  .domicilio--contacto h3, .domicilio--contacto p{
+    margin-top: 1rem;
+  }
+  .map--container {
+    width: 100%;
+    height: 100%;
+  }
+  .map {
+    min-width: 70%;
+  }
+}
+@media only screen and (max-width: 960px) {
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .datos--icon{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+ 
+}
